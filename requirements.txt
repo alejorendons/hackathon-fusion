@@ -6,3 +6,5 @@ seaborn
 matplotlib.dates 
 DateFormatter
 altair
+os
+request
