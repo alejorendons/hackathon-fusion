@@ -174,7 +174,7 @@ st.set_page_config(page_title="GitHub Activity Dashboard", layout="wide")
 st.title("📊 GitHub Activity Dashboard")
 
 @st.cache_data
- def load_data(uploaded_file):
+def load_data(uploaded_file):
     df = pd.read_csv(uploaded_file, parse_dates=['created_at'])
     # Ensure datetime and derive helper columns
     df['created_at'] = pd.to_datetime(df['created_at'])
