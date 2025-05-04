@@ -298,8 +298,6 @@ st.pyplot(fig4)
 st.sidebar.markdown("---")
 st.sidebar.write("Built with ❤️ using Streamlit")
 
-!pip install dash
-
 import pandas as pd, gzip, json
 from pathlib import Path
 import dash
