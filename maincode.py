@@ -9,8 +9,6 @@ Original file is located at
 #Instalación de Dependencias
 """
 
-!pip install pandas matplotlib seaborn scikit-learn
-
 """#Configuración Inicial"""
 
 import os
